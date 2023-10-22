@@ -1,0 +1,29 @@
+/* src/components/AuthForm.css */
+
+.auth-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-slider {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .form {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  
+  .sign-up-form {
+    transform: translateX(0);
+  }
+  
+  .sign-in-form {
+    transform: translateX(100%);
+  }
+  
