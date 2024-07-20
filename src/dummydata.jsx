@@ -3,37 +3,66 @@ export const online = [
     cover: "./images/courses/online/o2.png",
     hoverCover: "./images/courses/online/o2.png",
     courseName: "Complete Placement Roadmap",
-   
+    read: "ghghgggghfdfgfgff",
+    description: "Description for Course 1",
+    duration: "4 weeks",
+    file: "./images/courses/online/o2.png",
+   "InterviewQuestions" : "https://drive.google.com/file/d/1_vZWUZzNgP29CewG4E4hpe9qAL3tYgF1/view?usp=sharing",
+   "SubjectNotes" : "https://drive.google.com/file/d/1Qxf6UkADWX7-hdv6KLSjAYhVYUU6mPE-/view?usp=sharing",
+   "VideoLectures":"https://www.youtube.com/live/z_CdGFh5HwA?si=WldyfSqPfpC5tIir"
   },
   {
     cover: "./images/courses/online/o1.png",
     hoverCover: "./images/courses/online/o1.png",
     courseName: "Data Structures and Algorithms",
-    
+    details: "helooo manpreet",
+    description: "Description for Course 2",
+    duration: "4 weeks",
+    "InterviewQuestions" : "https://drive.google.com/file/d/1Z1xRgoslOzFUgEZx4jKntG0b_yPL9E-I/view?usp=sharing",
+    "SubjectNotes" : "https://drive.google.com/file/d/1fki6dWEhBoSBrIG2oTeB2V3-wACN-joR/view?usp=sharing",
+    "VideoLectures": "https://youtube.com/playlist?list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA&si=FHMgpzPdNv1fqj-a",
   },
+  // ... Other courses with PDF and video links
+
+
   {
     cover: "./images/courses/online/o3.png",
     hoverCover: "./images/courses/online/o3.png",
     courseName: "Operating System",
-    
+    description: "Description for Course 3",
+    duration: "4 weeks",
+    "InterviewQuestions" :"https://drive.google.com/file/d/1cYvltDA7rKmHOaom4wbOCe0nRBxhcICC/view?usp=sharing",
+    "SubjectNotes" :"https://drive.google.com/file/d/1gekA850WvVB73UiCUIMPaT7g8Klzya6G/view?usp=sharing",
+    "VideoLectures":"https://youtube.com/playlist?list=PLDzeHZWIZsTr3nwuTegHLa2qlI81QweYG&si=ab6AhuXCRGQHDt68",
   },
   {
     cover: "./images/courses/online/o4.png",
     hoverCover: "./images/courses/online/o4.png",
-    courseName: "DataBase Management System",
-    
+    courseName: "Database Management System",
+    description: "Description for Course 4",
+    duration: "4 weeks",
+    "SubjectNotes" :"https://drive.google.com/file/d/1Az2Q_igtPdW6pUsaZyOEPBbn4lvtJsaO/view?usp=sharing",
+    "InterviewQuestions" :"https://drive.google.com/file/d/11ybpcDdeIuSn6_S96aieWhUfvoJj5Aa2/view?usp=sharing",
+    "VideoLectures":"https://youtube.com/playlist?list=PLDzeHZWIZsTpukecmA2p5rhHM14bl2dHU&si=Q0U0sc1VmUKvSj9G",
   },
   {
     cover: "./images/courses/online/o5.png",
     hoverCover: "./images/courses/online/o5.png",
     courseName: "Compiler Design",
-    
+    description: "Description for Course 5",
+    duration: "4 weeks",
+    "SubjectNotes" :"https://drive.google.com/file/d/1pLCBt5QiXyp_CixcH22ZloGrzpRztYxt/view?usp=sharing",
+    "InterviewQuestions" :"https://drive.google.com/file/d/1Q2lWILn_5c3DZrz-woIXzMu8QjAjwwKz/view?usp=sharing",
+    "VideoLectures":"https://youtube.com/playlist?list=PLBlnK6fEyqRjT3oJxFXRgjPNzeS-LFY-q&si=2z-a2qAR7WPNom4N",
   },
   {
     cover: "./images/courses/online/o6.png",
     hoverCover: "./images/courses/online/o6.png",
     courseName: "Computer Network",
-    
+    description: "Description for Course 6",
+    duration: "4 weeks",
+    "SubjectNotes" :"https://drive.google.com/file/d/1OrXhjh9wBq0CNQ4qL0usAT22UTj3NFrl/view?usp=sharing",
+    "InterviewQuestions" :"https://drive.google.com/file/d/1eCLk8Y5GeOu1MXq_0HW1oEBKTXPaboUq/view?usp=sharing",
+    "VideoLectures":"https://youtu.be/vGjH9leVXaM?si=7EKIqavvg6pnA5Ah",
   },
-  
-]
+];

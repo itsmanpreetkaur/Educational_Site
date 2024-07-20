@@ -1,0 +1,58 @@
+.course{
+  background-image: url("../../../public/images/bg.webp");
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  top:595px;
+  left: 0;
+  background-color: white;
+}
+.course h1{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    margin:40px;
+    font-weight: 400px;
+}
+.container4 {
+    display: flex;
+    justify-content: space-around;
+  }
+  .box5{
+    background-image: url("../../../public/images/interview3.png");
+    background-size: cover;
+   
+  }
+  .box6{
+    background-image: url("../../../public/images/subject.png");
+    background-size: cover;
+    
+  }
+  .box7{
+    background-image: url("../../../public/images/video.png");
+    background-size: cover;
+    
+  }
+  .box5, .box6, .box7 {
+    margin:80px;
+    width: 200px;
+    height: 200px;
+    color:black;
+    text-align: center;
+    line-height: 200px;
+    font-size: 5px;
+    border: 2px;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+    .box5, .box6, .box7 {
+      margin: 10px 0;
+    }
+  }
+  

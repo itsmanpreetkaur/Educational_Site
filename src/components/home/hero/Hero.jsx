@@ -1,6 +1,7 @@
 import React from "react"
 import Heading from "../../common/heading/Heading";
 import "./Hero.css"
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -9,11 +10,13 @@ const Hero = () => {
         <div className='container'>
           <div className='row'>
             <Heading subtitle='WELCOME TO OUR PLATFORM' title='Best Online Education Expertise' />
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <p>“The earlier you start working on something, the earlier you will see results.”</p>
             <div className='button'>
-              <button className='primary-btn'>
+            <Link to ="/resources">
+            <button className='primary-btn'>
                 GET STARTED NOW <i className='fa fa-long-arrow-alt-right'></i>
               </button>
+            </Link>
               <button >
                 VIEW COURSE <i className='fa fa-long-arrow-alt-right'></i>
               </button>
